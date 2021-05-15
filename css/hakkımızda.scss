@@ -1,0 +1,75 @@
+* { padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #E9ECEF;
+}
+
+.card-header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(48, 45, 45);
+
+.card-panel {
+    display: flex;
+    width: 100%;
+
+    .card-title{
+        color: crimson;
+        font-size: 1.5rem;
+        margin: auto 0 auto 1rem;  
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        margin: 1rem;
+
+        .nav-item{
+            padding: 1rem;
+            color: grey;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: grey
+        }
+        .nav-link:hover{
+            color: rgb(218, 201, 201);
+        }
+    } 
+ } 
+ }
+
+ .card-body {
+     width: fit-content;;
+     margin: 1rem 1rem auto 1rem;
+     line-height: 1.3rem;
+     
+     
+     .card-title {
+         color: purple;
+         font-size: 2.5rem;
+         text-align: center;
+         margin-top: 2rem;
+         
+     }
+     .card-text {
+         margin-top: 1.5rem;
+         font-size: 1rem;
+         
+     }
+     .card-title-2 {
+         color: tan;
+         font-size: 1.5rem;
+         margin: 1rem auto 0.5rem auto;
+     }
+
+     .card-title-3 {
+        color: tan;
+        font-size: 1.5rem;
+        margin: 1rem auto 0.5rem auto;
+    }
+    
+ }

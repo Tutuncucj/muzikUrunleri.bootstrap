@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: #E9ECEF;
+}
+
+
+.card-header {
+    height: 50px;
+    
+}
+.card-panel {
+   display: flex;
+   
+   ul{
+       display: flex;
+       list-style-type: none;
+       .nav-link {
+           margin: 0 auto;
+           color: grey;
+       }
+       .nav-link:hover {
+           color: white;
+           
+       }
+   }
+   .card-title{
+    color: crimson;
+    font-size: 1.5rem;
+     
+   }
+}
+main { background-color: #E9ECEF;}
+
+.card {
+    width: 320px;
+    height: 420px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    .card-img{
+        width: 250px;
+        height: 300px;
+        margin: 0 auto;
+       
+    }
+    .card-text {
+        background-color: #7b7d7e; width: min-content; color: white; font-size: 0.8rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: purple;
+    }
+}
+
+.card:hover {
+    zoom: 1.1;
+}

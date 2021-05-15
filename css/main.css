@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #E9ECEF;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #302d2d;
+}
+
+.container .panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.container .panel h1 {
+  color: crimson;
+  font-size: 1.5rem;
+  margin: auto 0 auto 1rem;
+}
+
+.container .panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+}
+
+.container .panel ul li {
+  padding: 1rem;
+  color: grey;
+}
+
+.container .panel ul a {
+  text-decoration: none;
+  color: grey;
+}
+
+.container .panel ul a:hover {
+  color: #dac9c9;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.jumbotron .container-2 {
+  width: 950px;
+  margin: 5rem auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.jumbotron .container-2 h1 {
+  color: #c01f40;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.jumbotron .container-2 p {
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.jumbotron .container-2 hr {
+  margin-top: 2rem;
+}
+
+.jumbotron .container-2 h3 {
+  text-align: center;
+  color: goldenrod;
+  margin-top: 1rem;
+}
+
+.jumbotron .container-2 ul {
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 1rem;
+}
+
+.jumbotron .container-2 input {
+  color: white;
+  background-color: #2626db;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.jumbotron .container-2 input:hover {
+  background-color: white;
+  color: blue;
+}
+/*# sourceMappingURL=main.css.map */

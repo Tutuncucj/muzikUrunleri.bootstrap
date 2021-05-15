@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #E9ECEF;
+}
+
+.card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #302d2d;
+}
+
+.card-header .card-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.card-header .card-panel .card-title {
+  color: crimson;
+  font-size: 1.5rem;
+  margin: auto 0 auto 1rem;
+}
+
+.card-header .card-panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+}
+
+.card-header .card-panel ul .nav-item {
+  padding: 1rem;
+  color: grey;
+}
+
+.card-header .card-panel ul .nav-link {
+  text-decoration: none;
+  color: grey;
+}
+
+.card-header .card-panel ul .nav-link:hover {
+  color: #dac9c9;
+}
+
+.card-body {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem 1rem auto 1rem;
+  line-height: 1.3rem;
+}
+
+.card-body .card-title {
+  color: purple;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.card-body .card-text {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+.card-body .card-title-2 {
+  color: tan;
+  font-size: 1.5rem;
+  margin: 1rem auto 0.5rem auto;
+}
+
+.card-body .card-title-3 {
+  color: tan;
+  font-size: 1.5rem;
+  margin: 1rem auto 0.5rem auto;
+}
+/*# sourceMappingURL=hakkımızda.css.map */

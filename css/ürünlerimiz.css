@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #E9ECEF;
+}
+
+.card-header {
+  height: 50px;
+}
+
+.card-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.card-panel ul .nav-link {
+  margin: 0 auto;
+  color: grey;
+}
+
+.card-panel ul .nav-link:hover {
+  color: white;
+}
+
+.card-panel .card-title {
+  color: crimson;
+  font-size: 1.5rem;
+}
+
+main {
+  background-color: #E9ECEF;
+}
+
+.card {
+  width: 320px;
+  height: 420px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card .card-img {
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.card .card-text {
+  background-color: #7b7d7e;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: purple;
+}
+
+.card:hover {
+  zoom: 1.1;
+}
+/*# sourceMappingURL=ürünlerimiz.css.map */
